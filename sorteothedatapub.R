@@ -74,6 +74,6 @@ attendees <- data.frame(
 
 # Un seed arbitrario
 # Con este seed el ejercicio se vuelve repetible para todo el que desee auditarlo.
-set.seed(1234)
+set.seed(20160229)
 # Selección de ganadores, 1 = DataDay, 2 = DataDay+MobileDay
 attendees[round(runif(2, 1, length(attendees$name))),]
